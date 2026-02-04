@@ -1,0 +1,90 @@
+name,description,keywords,path
+agent-configuration,"Define and manage agent files (YAML frontmatter + prompt) with models, tools, and scope priorities.",,skills/agent-configuration/SKILL.md
+agent-orchestration,Multi-agent coordination and lifecycle management based on the Kode-CLI framework.,,skills/agent-orchestration/SKILL.md
+agents-overview,"Describe agent manifests, orchestration patterns, and delegation conventions used by the repo.",,skills/agents-overview/SKILL.md
+ai-asset-cataloger,"Use the system-wide AI asset inventory to locate instructions, datasets, tools, and regenerate scans when assets change.",,skills/ai-asset-cataloger/SKILL.md
+ai-logic,Patterns and helpers for implementing prompt/response pipelines and reusable LLM utilities.,,skills/ai-logic/SKILL.md
+ai-pdf-reader,Convert PDFs to text/markdown and extract structured knowledge for agents and docs.,,skills/ai-pdf-reader/SKILL.md
+architect,,,skills/generated-agents/architect/SKILL.md
+bug-hunter,,,skills/generated-agents/bug-hunter/SKILL.md
+bug-hunter-pro,"Drive the bug-hunting loop: reproduce, log, classify, and guide fixes with user collaboration.",,skills/bug-hunter-pro/SKILL.md
+bug-report-analyzer,High-fidelity review of incoming bug reports to extract reproduction steps and root causes.,bug-report;triage;reproduction;quality-assurance;root-cause,skills/bug-report-analyzer/SKILL.md
+build-triage-master,"Expert triage for build failures, specifically optimized for VS Code and CI environments.",build-failure;ci-cd;triage;compiler-error;logs,skills/build-triage-master/SKILL.md
+change-notification,Automated and manual protocols for communicating significant code/config changes to stakeholders.,notify;slack;alerts;code-change;update,skills/change-notification/SKILL.md
+chrome-screen-ai,Validate and package Chrome Screen AI release assets for on-device main-content extraction and OCR features.,,skills/chrome-screen-ai/SKILL.md
+claude-code,Understand and operate Claude Code plugin and action artifacts in the repository.,,skills/claude-code/SKILL.md
+claude-code-action,"Configure and operate the Claude Code GitHub Action to answer mentions, review pull requests, and run automation prompts across repositories.",,skills/claude-code-action/SKILL.md
+claude-code-base-action,"Run Claude Code inside GitHub workflows with direct prompts, custom tool policies, and MCP settings using the base action mirror.",,skills/claude-code-base-action/SKILL.md
+claude-code-plugins,"Enable and operate the official Claude Code plugin collection to extend terminal workflows with curated commands, agents, and hooks.",,skills/claude-code-plugins/SKILL.md
+code-linting,Apply GPT Engineer's pluggable linting registry to normalize generated source files.,,skills/code-linting/SKILL.md
+code-monkey,,,skills/generated-agents/code-monkey/SKILL.md
+code-monkey,"Apply task instructions to files, leverage relace when possible, and capture file metadata for downstream agents.",,skills/code-monkey/SKILL.md
+codex-tool-catalog,"Maintain the Codex_Tools registry, sync new helpers, and validate that the catalog and category folders stay aligned.",,skills/codex-tool-catalog/SKILL.md
+coding-tools,Catalog and use developer helper scripts and local CLIs found in the repo.,,skills/coding-tools/SKILL.md
+command-executor,"Confirm, run, and analyze shell commands with logged outputs and task step completion.",,skills/command-executor/SKILL.md
+component-architecture,"Design and implementation of reusable, isolated, and highly-testable system components.",react;components;modular;interface;props,skills/component-architecture/SKILL.md
+data-engineering,"Architecting reliable data structures, ETL pipelines, and high-performance indexing strategies.",database;schema;etl;partition;indexing,skills/data-engineering/SKILL.md
+deep-planning,Multi-stage planning with mandatory stakeholder clarification for complex projects.,ambiguous;complex-architecture;multi-step;clarify;plan,skills/deep-planning/SKILL.md
+developer,,,skills/generated-agents/developer/SKILL.md
+diff-validator,Validate and repair GPT Engineer diff hunks before applying them to source trees.,,skills/diff-validator/SKILL.md
+disk-execution-env,Upload generated files to a disk-backed working tree and execute commands with live stdout/stderr streaming.,,skills/disk-execution-env/SKILL.md
+documentation-update,Ensures technical instructions and system documentation remain in sync with evolving codebases.,documentation;instructions;README;sync;technical-debt,skills/documentation-update/SKILL.md
+environment-setup,"Systematic initialization of project environments, dependencies, and configurations.",init;bootstrap;environment;config;dependencies,skills/environment-setup/SKILL.md
+error-handler,,,skills/generated-agents/error-handler/SKILL.md
+error-handler,"Recover from agent failures, especially command errors, by debugging and queueing follow-up iterations.",,skills/error-handler/SKILL.md
+executor,,,skills/generated-agents/executor/SKILL.md
+external-docs,,,skills/generated-agents/external-docs/SKILL.md
+external-docs,Select helpful docsets and fetch snippets from the external documentation API for the current task.,,skills/external-docs/SKILL.md
+fast-planning,Rapid sprint planning focusing on immediate deliverables and minimal viable logic.,quick;sprint;hotfix;rapid-prototype;minimal,skills/fast-planning/SKILL.md
+files-dict-manager,"Normalize GPT Engineer file bundles, enforce typing, and render chat-friendly snippets.",,skills/files-dict-manager/SKILL.md
+frontend,,,skills/generated-agents/frontend/SKILL.md
+frontend-builder,"Drive template-based UI generation, change iterations, and auto-debug before handing off to backend work.",,skills/frontend-builder/SKILL.md
+frontend-wizard,"Bootstrap the frontend/knowledge base, handle Swagger imports, and seed the first epic.",,skills/frontend-wizard/SKILL.md
+git-automation,"Detect Git availability, initialize repositories, and capture commits with user-approved messages.",,skills/git-automation/SKILL.md
+github-mcp-server-cli,"Operate the GitHub MCP Server binary to launch stdio services, audit OAuth scopes, and regenerate documentation from inventory metadata.",,skills/github-mcp-server-cli/SKILL.md
+gpt-engineer-acp,"Run the gpt-engineer ACP server, generate MCP configs, and validate code with the ACP tooling pipeline.",,skills/gpt-engineer-acp/SKILL.md
+gpt-engineer-core,"Integrations, CLI hooks, and core helpers for the GPT Engineer subproject inside the repo.",,skills/gpt-engineer-core/SKILL.md
+human-input,,,skills/generated-agents/human-input/SKILL.md
+human-input,"Pause automation for human actions or missing data, then resume once the user confirms.",,skills/human-input/SKILL.md
+importer,"Guide project imports, gather entrypoints, and rewrite the specification for existing codebases.",,skills/importer/SKILL.md
+importer,,,skills/generated-agents/importer/SKILL.md
+internal-overview,"Testing helpers, mocks, and internal-only utilities used by the repository.",,skills/internal-overview/SKILL.md
+issue-resolution,Standardized lifecycle for resolving tracked issues with full traceability.,fix;issue;github-issue;traceability;regression,skills/issue-resolution/SKILL.md
+issue-triage,Strategic management and categorization of the issue backlog to maintain project momentum.,issue;triage;priority;labels;backlog,skills/issue-triage/SKILL.md
+kode-cli,Use Kode CLI assets for policy-driven skill installation and agent-run orchestration.,,skills/kode-cli/SKILL.md
+legacy-handler,Close out legacy review steps without disturbing modern flows.,,skills/legacy-handler/SKILL.md
+legacy-handler,,,skills/generated-agents/legacy-handler/SKILL.md
+mcpcurl,Invoke MCP servers over stdio by discovering tool schemas and issuing JSON-RPC calls from the mcpcurl helper CLI.,,skills/mcpcurl/SKILL.md
+orchestrator,,,skills/generated-agents/orchestrator/SKILL.md
+orchestrator,"Coordinate agent pipeline, manage project initialization, and react to each agent’s responses.",,skills/orchestrator/SKILL.md
+principled-implementation,High-fidelity code implementation following strict architectural patterns.,quality-code;implementation;clean-code;logic-rigor,skills/principled-implementation/SKILL.md
+problem-solver,,,skills/generated-agents/problem-solver/SKILL.md
+problem-solver,Regenerate and vet alternative solutions when iterations loop without progress.,,skills/problem-solver/SKILL.md
+project-configurator,"Load, edit, and persist gpt-engineer.toml using the typed Config helpers.",,skills/project-configurator/SKILL.md
+relevant-files-navigator,Identify client/server files needed for the current task and keep state in sync.,,skills/relevant-files-navigator/SKILL.md
+simple-agent,"Bootstrap GPT Engineer's default SimpleAgent to generate code, craft entrypoints, and run iterative improvements with disk-backed memory.",,skills/simple-agent/SKILL.md
+Skill Development,"This skill should be used when the user wants to ""create a skill"", ""add a skill to plugin"", ""write a new skill"", ""improve skill description"", ""organize skill content"", or needs guidance on skill structure, progressive disclosure, or skill development best practices for Claude Code plugins.",,skills/skill-development/SKILL.md
+skill-creator,"Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an existing skill) that extends Copilot's capabilities with specialized knowledge, workflows, or tool integrations.",,skills/skill-creator/SKILL.md
+skill-installer,"Install skills into $CODEX_HOME/skills from the TonyRHouston/.github repository or other GitHub repo paths. Use when a user asks to list installable skills, install a curated skill, or install a skill from another repo (including private repos).",,skills/skill-installer/SKILL.md
+skill-judge,"Evaluate Agent Skill design quality against official specifications and best practices. Use when reviewing, auditing, or improving SKILL.md files and skill packages. Provides multi-dimensional scoring and actionable improvement suggestions.",,skills/skill-judge/SKILL.md
+skill-marketplace,Install and manage skills/plugins via marketplaces and the add-skill workflow.,,skills/skill-marketplace/SKILL.md
+spec-writer,,,skills/generated-agents/spec-writer/SKILL.md
+spec-writer,"Collect project descriptions, refine specs, and update templates/complexity as the project evolves.",,skills/spec-writer/SKILL.md
+standard-planning,Balanced planning for routine feature development and maintenance.,feature;maintenance;roadmap;enhancement,skills/standard-planning/SKILL.md
+system-architect,High-level architectural analysis and structural design for modular codebases.,,skills/system-architect/SKILL.md
+task-breakdown-developer,"Drive task execution by gathering context, confirming with the user, and producing actionable steps with file saves and commands.",,skills/task-breakdown-developer/SKILL.md
+task-completer,,,skills/generated-agents/task-completer/SKILL.md
+task-completer,"Finalize a task, commit changes when Git is active, and broadcast completion status.",,skills/task-completer/SKILL.md
+task-troubleshooter,"Gather testing feedback, classify issues, and drive iteration loops until tasks are reviewed.",,skills/task-troubleshooter/SKILL.md
+tech-lead,,,skills/generated-agents/tech-lead/SKILL.md
+tech-lead-planner,"Manage epics, plans, and task generation for new features while keeping project state clean.",,skills/tech-lead-planner/SKILL.md
+tech-writer,,,skills/generated-agents/tech-writer/SKILL.md
+tech-writer,"Celebrate project milestones, generate documentation, and mark tasks as documented.",,skills/tech-writer/SKILL.md
+telemetry-kusto-analyst,Answer VS Code telemetry questions by running real Kusto queries with best practices.,,skills/telemetry-kusto-analyst/SKILL.md
+thinkpdf,"Convert PDFs to structured markdown, invoke OCR when needed, and expose tools via CLI, GUI, or MCP server.",,skills/thinkpdf/SKILL.md
+token-usage-monitor,"Track per-step token counts, image costs, and cumulative spend for GPT Engineer runs.",,skills/token-usage-monitor/SKILL.md
+tools-overview,High-level guide to repository utility scripts and tool entrypoints.,,skills/tools-overview/SKILL.md
+tpilotx-cli,"Launch and control the TpilotX/Claude CLI runner, wiring config, database, UI adapters, and cleanup so the orchestrator can execute safely.",,skills/tpilotx-cli/SKILL.md
+troubleshooter,,,skills/generated-agents/troubleshooter/SKILL.md
+type-safety-enforcer,Eliminates technical debt by enforcing strict type definitions and avoiding 'any'.,typescript;type-safety;any;interfaces;types,skills/type-safety-enforcer/SKILL.md
+wizard,,,skills/generated-agents/wizard/SKILL.md
